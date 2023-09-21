@@ -1,8 +1,3 @@
-<script>
-
-    import Blur from "./Blur.svelte";
-
-</script>
 <section>
   <h2>CENTRO DE INVESTIGACIÓN Y DESARROLLO TECNOLÓGICO UNIFRANZ</h2>
   <h1>CIDTEC UNIFRANZ</h1>
@@ -11,8 +6,6 @@
     <h3>PROGRESO</h3>
     <h3>TECNOLOGÍA</h3>
   </div>
-  <Blur top="50%" left="0" />
-  <Blur top="25%" left="100%" />
 </section>
 
 <style>
@@ -22,10 +15,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #FFFFFF;
+    color: var(--white);
     padding-top: 32vh;
     position: relative;
-    overflow: hidden;
   }
   h2 {
     font-size: 16px;
@@ -35,6 +27,7 @@
     animation: aparecer 3s forwards;
     animation-delay: 800ms;
     opacity: 0;
+    text-align: center;
   }
   h1 {
     font-size: 96px;
@@ -43,6 +36,7 @@
     animation: aparecer 3s forwards;
     animation-delay: 300ms;
     opacity: 0;
+    text-align: center;
   }
   div {
     display: flex;

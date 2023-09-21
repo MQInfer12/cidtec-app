@@ -16,6 +16,7 @@
     position: fixed;
     top: 0;
     width: 100vw;
+    z-index: 5;
   }
   ul {
     display: flex;
@@ -23,7 +24,7 @@
     gap: 24px;
   }
   a {
-    color: #FFFFFF;
+    color: var(--white);
     text-decoration: none;
   }
 </style>

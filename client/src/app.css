@@ -45,4 +45,11 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Futura PT";
+
+  --primary400: #FCDFAC;
+  --primary500: #D18F52;
+  --white: #FFFFFF;
+  --bg800: #0B0C17;
+  --bg700: #1A1C2E;
+  --bg500: #505E66;
 }
