@@ -3,8 +3,11 @@
 </script>
 
 <div>
-  <Line translate="0" />
-  <Line translate="-20px" />
+  <Line translate="0" delay="400ms" />
+  <Line translate="75px" delay="0" />
+  <Line translate="130px" delay="800ms" />
+  <Line translate="105px" delay="200ms" inverse />
+  <Line translate="30px" delay="1000ms" inverse />
 </div>
 
 <style>
